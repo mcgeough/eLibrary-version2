@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="lib" path="target/eLibrary-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-j-8.0.32.jar"/>
+	<classpathentry kind="lib" path="target/eLibrary-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.21.9.jar"/>
+	<classpathentry kind="lib" path="target/endorsed/javaee-endorsed-api-7.0.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

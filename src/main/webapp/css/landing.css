@@ -1,0 +1,307 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 15-Aug-2023, 14:49:14
+    Author     : mcgeo
+*/
+.ratings{
+    margin-right:10px;
+}
+
+.ratings i{
+    
+    color:#cecece;
+    font-size:32px;
+}
+
+.rating-color{
+    color:#fbc634 !important;
+}
+
+.review-count{
+    font-weight:400;
+    margin-bottom:2px;
+    font-size:16px !important;
+}
+
+.small-ratings i{
+  color:#cecece;   
+}
+
+.review-stat{
+    font-weight:300;
+    font-size:18px;
+    margin-bottom:2px;
+}
+body{
+    background-color: #141414;
+    overflow-x: hidden;
+    width: 100vw;
+    position: relative;
+}
+
+.message{
+    color: white;
+}
+
+.message a{
+    color: white;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.card {display:inline-block;}
+
+a:visited {
+    text-decoration: none;
+}
+
+.elibrary-padding-left{
+    padding-left: 57px;
+}
+
+.elibrary-padding-right{
+    padding-right: 57px;
+}
+
+.elibrary-navbar{
+    background-color: #0c0c0c;
+    z-index: 1000;
+    transition: background 0.2s linear;
+    position: fixed;
+    width: 100vw;
+
+
+}
+
+.elibrary-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+}
+
+.navbar-brand img{
+    width: 200px;
+}
+
+.elibrary-dropdown-box{
+    display: none;
+}
+
+.elibrary-dropdown{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+}
+
+.elibrary-dropdown-box .dropdown-menu{
+    background-color: rgba(0,0,0,0.796);
+    font-size: 14px !important;
+    color: #fff !important;
+    margin-left: -80px;
+    border-top: 3px solid #fff;
+    margin-top: 30px;
+}
+
+.card-container{
+    margin-top: 4000px;
+    position: absolute;
+}
+.elibrary-dropdown-box .dropdown-menu .dropdown-item{
+    color: rgba(255, 255, 255, 0.769);
+    text-align: center;
+    width: 250px;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+.elibrary-dropdown-box .dropdown-menu .dropdown-item:hover{
+    background-color: rgba(255, 255, 255, 0.111);
+    color: #fff;
+}
+
+.elibrary-nav{
+    display: block;
+    align-items: center;
+}
+
+.elibrary-nav button{
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.729);
+    border: none;
+    font-size: 16px;
+}
+
+.elibrary-nav button:hover{
+    color: #fff;
+}
+
+i{
+    font-size: 20px;
+    color: #fff;
+    padding: 5px 20px;
+    color:yellow;
+}
+
+.elibrary-profile{
+    /*   width: 30px;
+        height:30px;
+        background-color: gray;
+        border-radius: 4px;
+        margin-left:20px;*/
+    cursor: pointer;
+}
+
+.elibrary-home-video{
+    width:100%;
+    position:relative;
+    z-index: 10;
+}
+
+.elibrary-home-video video{
+    width:100%;
+}
+
+.elibrary-home-video .top{
+    position:absolute;
+    top: 0%;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), rgb(0,0,0));
+}
+.elibrary-home-video .bottom{
+    position:absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #141414);
+}
+
+.elibrary-home-video .content{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+}
+
+.elibrary-home-video .content .left{
+    margin-left: 8px;
+}
+
+.elibrary-home-video .content .left img{
+    margin-top: 190px;
+    width: 500px;
+}
+.elibrary-home-video .content .right{
+    width: 50px;
+}
+
+.slider1{
+    padding-left: 25px;
+    position: absolute;
+    top: 450px;
+    z-index: 500;
+}
+
+.slider2{
+    padding-left: 25px;
+    position: absolute;
+    top: 850px;
+    z-index: 500;
+}
+
+.slider3{
+    padding-left: 25px;
+    position: absolute;
+    top: 1250px;
+    z-index: 500;
+}
+
+.card{
+    width: 200px;
+    background: #141414;
+    border-radius: 4px;
+    transition: 0.2s linear;
+    margin: 12px;
+    position: relative;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+.card-icon{
+    color: #fff;
+    padding:  20px;
+    font-size: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.elibrary-card-text{
+    font-size: 12px;
+}
+
+.card-body{
+    display: none;
+    padding: 10px 15px;
+    position: absolute;
+    background-color: #141414;
+    top:120px;
+    width: 100%;
+    z-index: 100 !important;
+}
+
+.card:hover > .card-body{
+    display:block;
+}
+
+.carousel-control-prev{
+    display: none;
+}
+
+.carousel-control-next{
+    display: none;
+}
+
+.tab-change-btn{
+    border: none;
+    width: 30px !important;
+}
+
+.footer{
+    margin-top: 850px;
+    height: 250px;
+}
+
+ul{
+    list-style: none;
+    font-size: 15px;
+    color:rgba(255,255,255,0.646);
+    font-weight: 100;
+}
+
+.copyright{
+    font-size: 15px;
+    font-weight: 200;
+    color: yellow;
+    margin-left: 25px
+}
+
+.footer{
+    margin-bottom: 10px;
+}
+
+.table{
+    width: 100vw;
+    position: relative;
+}

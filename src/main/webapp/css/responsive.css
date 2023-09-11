@@ -1,0 +1,76 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 15-Aug-2023, 14:49:33
+    Author     : mcgeo
+*/
+@media(max-width:767.90px){
+    .navbar-brand img{
+        width: 100px !important;
+    }
+    .elibrary-padding-left{
+        padding-left: 10px !important;
+    }
+
+    .elibrary-padding-right{
+        padding-right: 10px !important;
+    }
+    .elibrary-dropdown-box{
+        display: block !important;
+    }
+    .elibrary-nav{
+        display: none;
+    }
+
+    i{
+        font-size: 20px;
+        cursor: pointer;
+        padding: 5px !important;
+    }
+
+    .elibrary-profile{
+        margin-left: 5px !important;
+    }
+
+    .elibrary-home-video .content .left{
+        margin-left: 25px !important;
+    }
+    .elibrary-home-video .content .left img{
+        margin-top: 90px !important;
+        width: 200px;
+    }
+
+    button{
+        font-size: 10px !important;
+        width: max-content !important;
+        opacity: 0.8;
+    }
+    
+    .card{
+        width:150px;
+    }
+    .card-icon{
+        font-size: 17px !important;
+    }
+    
+    .slider1{
+        top: 250px;
+        margin-left: 0px;
+    }
+    .slider2{
+        top: 550px;
+        margin-left: 0px;
+    }
+    .slider3{
+        top: 850px;
+        margin-left: 0px;
+    }
+    
+    .card-body{
+        top: 80px;
+    }
+    
+    
+}
